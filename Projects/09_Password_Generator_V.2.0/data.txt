@@ -1,0 +1,10 @@
+Pete|pedro@flores.com|Pete123
+Pedro|pedro@flores.com|Pedro
+Pete|pedro@flores.com|Pete
+Pete|pedro@flores.com|Pete123
+|pedro@flores.com|
+|pedro@flores.com|
+|pedro@flores.com|
+pedro|pedro@flores.com|pedro
+ge|pedro@flores.com|3$c9AJ%bSnZO86g#
+{"amazon": {"email": "pedro@flores.com", "password": "Yo.1907"}}amazon|pedro@flores.com|Yo.1907
