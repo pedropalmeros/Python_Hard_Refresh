@@ -16,10 +16,8 @@ else:
 mail_message = """Subject:Hello\n\nThis is the body of my email"""
 
 
-connection = smtplib.SMTP('smtp.gmail.com:587')
-print("step 1")
-connection.starttls()
-connection.login(user=my_email, password = password)
-connection.sendmail(from_addr=my_email, to_addrs="pedrofpalmeros@gmail.com", msg=mail_message)
-connection.close()
+with smtplib.SMTP('smtp.gmail.com:587') as connection:
+    connection.starttls()
+    connection.login(user=my_email, password = password)
+    connection.sendmail(from_addr=my_email, to_addrs="pedrofpalmeros@gmail.com", msg=mail_message)
 
